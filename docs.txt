@@ -1,0 +1,13 @@
+setup enviroment
+- refine mui
+- npm create refine-app@latest -- -o refine-mui tutorial
+    ✔ Downloaded remote source successfully.
+    √ Choose a project template · refine-react
+    √ What would you like to name your project?: · client
+    ? Choose your backend service to connect: ... 
+    √ Choose your backend service to connect: · data-provider-custom-json-rest
+    √ Do you want to use a UI Framework?: · mui
+    √ Do you want to add example pages?: · inferencer
+    √ Do you need any Authentication logic?: · auth-provider-google
+    √ Do you need i18n (Internationalization) support?: · i18n-mui
+- npm run dev
